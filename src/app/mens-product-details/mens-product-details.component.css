@@ -1,0 +1,64 @@
+.row{
+  padding:40px;
+}
+.col-sm-4{
+  border:2px solid #ecf3ec;
+  width:100%;
+  height:400px;
+  
+}
+img{
+ padding:5px;
+  max-width:400px;
+  max-height:390px;
+  }
+.pdetails{
+  margin-left: 55px;
+  top: 35px;
+  position: relative;
+}
+.itemName{
+  font-size:35px;
+  font-family:Roboto,Arial,sans-serif;
+  color:rgb(23, 24, 23)
+}
+.price{
+  color:#0a0a0ad4;
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 18px;
+}
+.acprice{
+  color:#0a0a0ad4;
+  font-size: 16px;
+  font-family: Roboto,Arial,sans-serif;
+}
+.offer{
+  color: #8BC34A;
+  font-size: 16px;
+  font-family: Roboto,Arial,sans-serif;
+}
+.rating{
+  color:#474846;
+  font-size: 16px;
+  font-family: Roboto,Arial,sans-serif;
+}
+.badge-success {
+  color: #fff;
+  background-color: #28a745;
+  padding: 7px;
+}
+.btn{
+  top:20px;
+  position:relative;
+  width:150px;
+
+}
+.AddCart{
+  margin-right:15px;
+  background:orange;
+}
+.Buy{
+  margin-right:0px;
+  background:#fb641b;
+  
+}

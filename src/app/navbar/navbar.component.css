@@ -1,0 +1,26 @@
+.input-group{
+    width:40%;
+}
+
+@media screen and (max-width:796px){
+    .input-group{
+        width:70%;
+    }
+}
+@media screen and (max-width:600px){
+    .input-group{
+        width:100%;
+    }
+}
+.ml-auto
+{
+    margin-right:35px;
+}
+.navbar-brand
+{
+margin-left:40px;
+}
+.input-group
+{
+    padding:10px;
+}

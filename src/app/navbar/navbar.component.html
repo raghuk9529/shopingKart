@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">ShopingKart</a>
+    
+     <button class="navbar-toggler" (click)=toggleNavbar()>
+     <span class="navbar-toggler-icon"></span>  
+   </button>
+   
+   <div class="collapse navbar-collapse" [ngClass]="{'show':navbarOpen}">
+      <div class="input-group">
+          <input type="text" class="form-control " name="search">
+          <div class="input-group-append">
+              <button type="submit" class="btn btn-success">
+                  Search
+              </button>
+          </div>
+     </div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link"  data-toggle="modal" data-target="#myModal">Login</a>
+          <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal header -->
+                 <div class="modal-header">
+                        <h3>Login</h3>
+                        <button class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <div class="modal-body">
+                     <app-login></app-login>
+                </div>
+                
+                 
+                  
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#reg">
+            SignUp</a>
+          <div class="modal" id="reg">
+              <div class="modal-dialog">
+                    <div class="modal-content">
+                          <div class="modal-header">
+                              <h2>Register</h2>
+                               
+                              <!---<button class="close" data-dismiss="modal">&times;</button> -->
+                          </div>
+                          <div class="modal-body">
+                              <app-signup></app-signup>
+                          </div>
+
+                    </div>
+              </div>
+          </div>
+        </li>
+         
+      </ul>
+    </div>
+  
+  </nav>

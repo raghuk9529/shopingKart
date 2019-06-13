@@ -1,0 +1,82 @@
+.container-fluid
+{
+ 
+  box-sizing:border-box;
+  padding:60px;
+  width:100%;
+  height:800px;
+}
+.col-sm-4,img
+{
+  vertical-align: middle;
+    box-sizing: border-box;
+    border: 2px solid #f0f0f0;
+    padding: 5px;
+    
+}
+.itemName
+{
+  color:rgb(102, 99, 99);
+}
+.rating
+{
+  color: rgb(152, 140, 140);
+  font-size: 14px;
+  font-weight:bolder;
+}
+.sp-label
+{
+  font-weight: 500;
+  text-align: left;
+  
+  
+}
+.price
+{
+ font-weight: 500;
+}
+.acprice
+{
+  margin-left:5px;
+  color: rgb(152, 140, 140);
+}
+.offer
+{
+  margin-left:5px;
+  color: rgb(152, 140, 140);
+  font-size:16px;
+  font-weight:bolder;
+}
+.fa-tag
+{
+  font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #212529;
+    text-align: left;
+
+}
+.AddCart
+{
+  padding: 18px 8px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  width:30%;
+  border: none;
+  float: left;
+  background: #ff9f00;
+  color: #fff;
+  margin-right:15px;
+}
+.Buy
+{
+  margin-left:0px;
+  padding: 18px 8px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  width:30%;
+  border: none;
+  float: left;
+  background: #fb641b;
+  color: #fff;
+}

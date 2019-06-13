@@ -1,0 +1,32 @@
+.container-fluid{
+background:#f5f3f3;
+margin-top:35px;
+}
+.ele-heading{
+  text-align:center;
+  font-family:sans-serif;
+  top:20px;
+  position: relative;
+}
+.column {
+  float: left;
+  padding:8px;
+}
+
+/* Clearfix (clear floats) */
+img{
+  width:100%;
+  top:35px;
+  position:relative;
+}
+img:hover{
+  transform:scale(1.020);
+}
+.itemName{
+  text-align:center;
+}
+.price{
+  text-align:center;
+  color:rgb(73, 226, 73);
+  font-family:bold;
+}

@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <h3 class="ele-heading">Mens Wear</h3>
+  <div class="row">
+    <div class="column col-sm-2" *ngFor="let x of mensData">
+          <img src="./assets/images/small/mens/{{x.pimage}}" class="rounded" [routerLink]='["/mpd",x.id]'>
+         <br/>
+         <br/>  <br/>
+         <div class="itemName">{{x.name}}</div>
+         <div class="price">{{x.price | currency:"INR"}}</div>
+    </div>
+  </div>
+</div> 
+
